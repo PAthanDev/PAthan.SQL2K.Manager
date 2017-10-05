@@ -1,7 +1,7 @@
 /*
  * MainWnd.java
  *
- * Created on 1 Сентябрь 2008 г., 22:56
+ * Created on 1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2008 пїЅ., 22:56
  */
 
 package pathanmssql2kmng;
@@ -56,7 +56,7 @@ public class MainWnd extends javax.swing.JFrame {
         
         setSize(screenSize);
         setLocation(1,1);
-        setTitle("Free MS SQL 2000 Server DataBase manager.");
+        setTitle("Free MS SQL 2000 Server DataBase manager. ");
         
         mainwnddesktop= new JDesktopPane();
         mainwnddesktop.setBackground(new Color(212, 208, 200)) ;
@@ -338,7 +338,7 @@ public class MainWnd extends javax.swing.JFrame {
     protected InfoWnd infownd=null;
     protected BacResWnd bacupwnd=null;
     
-    public String urlConnect = ""; // Имя сервера и порт добавляется при соединении
+    public String urlConnect = ""; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     public String login= null;	   			
     public String password = null;
     public String urlConnectFull=null;
